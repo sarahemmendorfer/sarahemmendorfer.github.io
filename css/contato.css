@@ -1,0 +1,140 @@
+/* Títulos da Página */
+
+#tituloSobreProjeto{
+    height: 22em;
+    background:  #5d52d30c;
+}
+
+#conteProjeto{
+    font-family: 'RalewayLight', sans-serif;
+    color: #211E42;
+}
+
+#palavraProjeto{
+    font-family: 'Raleway', sans-serif;
+    color: #211E42;
+    font-size: 4.1em;
+}
+
+#linhaProjeto{
+    width: 40%;
+    margin: 2em auto 4em auto;
+
+}
+
+/* Caixa Central */
+
+#caixaCentral{
+    bottom: 8em;
+    height: 15em;
+    z-index: 2;
+    margin: 0 auto;
+    background: #e1e1e6;
+}
+
+#tituloCaixaCentral{
+    font-family: 'Raleway', sans-serif;
+    color: #211E42;
+    font-size: 2em;
+}
+
+#textoCaixaCentral{
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+}
+
+#linhaContato{
+    width: 18%;
+    margin: 0.8em auto 2em auto;
+}
+
+/* Nossos Contatos */
+#divContatos{
+    background: #5d52d30c;
+}
+
+.iconesNossosContatos{
+    color: #211E42;
+    font-size: 2.2em;
+}
+
+.nomesDonasContato{
+    font-family: 'MontserratLight', sans-serif;
+    color: #211E42;
+}
+
+.iconesNomeContato{
+    color: #211E42;
+    font-size: 0.7em;
+    margin-top: 2.6em;
+}
+
+/* Formulário */
+
+.estiloFormulario{
+    border: 0;
+    border-radius: 0px;
+    border-bottom: 1px solid #211e42a6;
+    background: #EEEEE2;
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+
+}
+
+.estiloFormulario:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background: #EEEEE2;
+    border-bottom: 1px solid #211e42a6;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#botaoEnviar{
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+    border: 1px solid #211E42;
+}
+
+#botaoEnviar:hover{
+    font-family: 'MontserratLight', sans-serif;
+    background: #5d52d371;
+}
+
+/* Medias Queries */
+
+@media (max-width: 992px)  {
+
+}
+
+@media (max-width: 768px)  {
+    #botaoEnviar{
+        display: block;
+        margin:1em auto 2em auto;
+    }
+
+    .estiloFormulario{
+        font-size: 1.4em;
+    }
+
+    #botaoEnviar{
+        font-size: 1.4em;
+    }
+
+}
+
+@media (max-width: 576px) {
+    #botaoEnviar{
+        display: block;
+        margin:1em auto 2em auto;
+    }
+
+    #caixaCentral{
+        bottom: 8em;
+        height: 18em;
+    }
+}

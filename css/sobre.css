@@ -1,0 +1,56 @@
+/* Integrantes */
+
+.corFundoDifSobre{
+    background: #5d52d30c;
+}
+
+/* Quem Somos */
+#quemSomos{
+    margin: 5em 0 11em 0;
+}
+
+.nomesDonas{
+    color: #211E42;
+    font-family: 'RalewayLight', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.textoDonas{
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+}
+
+#tituloNossaHistoria{
+    font-family: 'Raleway', sans-serif;
+    color: #211E42;
+}
+
+.textoNossaHistoria{
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 2em;
+    color: #211E42;
+}
+
+.iconLinkedin{
+    color:  #211E42;
+}
+
+/* Missão, Visão e Valores */
+
+
+.tituloMissao{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    color: #211E42;
+}
+
+.textoMissao{
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+}
+
+.enfaseValores{
+    font-family: 'MontserratLight', sans-serif;
+    color: #211E42;
+}

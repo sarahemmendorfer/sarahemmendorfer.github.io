@@ -1,0 +1,78 @@
+/* Título */
+
+#tituloPrincipalPortfolio{
+    color: #211E42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.2em;
+    text-shadow: 0.01em 0.01em 0.03em #12112532;
+    margin-top: 2em;
+}
+
+#linhaPortfolio{
+    color:#9DA09B;
+    width: 75%;
+    margin: 1em auto;
+}
+
+/* Bloco de Imagens 1 */
+
+#articleFotos1{
+    margin-top: 10em;
+}
+
+#articleFotos2{
+    margin-top: 10em;
+}
+
+#articleFotos3{
+    margin-top: 10em;
+}
+/* Estilizações de Textos */
+
+.titulosBlocosPortfolio{
+    color: #211E42;
+    font-family: 'RalewayLight', sans-serif;
+    font-size: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.textosBlocosPortfolio{
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+    font-size: 1.1em;
+    margin: 0.5em 1em;
+}
+
+.linhasTitulos{
+    color:#9DA09B;
+    width: 60%;
+    margin: 0 auto 4em auto;
+}
+
+/* Bloco de Imagens 3 */
+
+#fundoArticle3{
+    background: #5d52d30c;
+    margin-bottom: 5em;
+}
+
+/* Botão Atalho */
+
+#botaoAtalho{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+    border: 1px solid #211E42;
+    border-radius: 0px;
+    background: #EEEEE2;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.listaAtalho{
+    font-family: 'MontserratLight', sans-serif;
+    background: #ebebda;
+    color: #211E42;
+}

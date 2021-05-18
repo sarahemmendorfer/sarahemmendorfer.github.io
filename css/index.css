@@ -1,0 +1,247 @@
+/* Importar Fontes */
+@font-face {
+    font-family: Raleway;
+    src: url('../fonte/Raleway/static/Raleway-Thin.ttf');
+}
+
+@font-face {
+    font-family: RalewayLight;
+    src: url('../fonte/Raleway/static/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonte/Montserrat/Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: MontserratLight;
+    src: url('../fonte/Montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url('../fonte/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fundo da Página */
+body{
+    background: #EEEEE2;
+}
+
+/* Menu de Navegação */
+
+.logoMenu{
+    margin: 0.5em 0;
+}
+
+.linhaMenu{
+    color:#9DA09B;
+    width:95%;  
+    margin: 0 auto;
+}
+
+.textoMenu{
+    font-family: 'MontserratLight', sans-serif;
+    color: #9DA09B;
+}
+
+#alturaEsquerdaMenu{
+    margin-bottom: 35px;
+}
+
+
+
+/* Página de entrada */
+#logoMaior{
+    opacity: 0.85;
+    top: 6em;
+    width: 22em;
+    position: absolute;
+    right: 0px;
+}
+
+#textoPrincipalInicio{
+    color: #211E42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    text-shadow: 0.01em 0.01em 0.03em #12112532;
+    margin: 1em 0 0 0.15em;
+}
+
+#textoSecundarioInicio{
+    color: #211E42;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    margin: 0.5em 0 0 1.1em;
+}
+
+/* Conteúdo Página Inicial */
+.textoMaisPrincipal{
+    color: #211E42;
+    display: block;    
+}
+
+.saibaMaisInicio{
+    border: 1px solid #211E42;
+
+}
+
+#larguraDivBranco{
+    margin-top: 17em;
+    height: 1em;
+    background: #5d52d30c;
+}
+
+.caixasTexto{
+    margin: auto 0;
+}
+
+.textoCaixas{
+    font-family: 'MontserratLight', sans-serif;
+    color: #211E42;
+    font-size: 1.2em;
+}
+
+#corFundoCaixa{
+    background: #5d52d30c;
+}
+
+/* Ícone volta ao topo*/
+#botaoRetornoTopo{
+    bottom: 1em; 
+    right: 0.8em; 
+    font-size: 2em;
+    visibility: hidden;
+}
+
+/* Footer */
+footer{
+    margin-top: 10em;
+    color: #211E42;
+    font-family: 'MontserratLight', sans-serif;
+}
+
+#meuCopyright{
+    margin-top: 10em;
+    padding-left: 4em;
+    font-size: 0.9em;
+}
+
+#contatosFooter{
+    font-family: 'MontserratBold', sans-serif;
+    margin: 2em 0;
+}
+
+.iconeFooter{
+    color: #211E42;
+    margin-right: 1em;
+}
+
+#posicionarContatoFooter{
+    float: right;
+    padding-right: 5em;
+}
+
+.numeroFooter{
+    font-family: 'MontserratLight', sans-serif;
+}
+
+/* Medias Queries */
+
+@media (max-width: 992px)  {
+    html{
+        font-size: 15px;
+    }
+    #logoMaior{
+        top: 15em;
+    }
+
+    #larguraDivBranco{
+        height: 4em;
+    }
+
+    #meuCopyright{
+        margin-top: 0em;
+    }
+}
+
+@media (max-width: 768px)  {
+    html{
+        font-size: 15px;
+    }
+
+    #alturaEsquerdaMenu{
+        margin-bottom: 0px;
+    }
+
+    .saibaMaisInicio{
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    #logoMaior{
+        width: 16em;
+        top: 2em;
+    }
+
+    #larguraDivBranco{
+        margin-top: 25em;
+        height: 6em;
+    }
+
+    #meuCopyright{
+        margin-top: 6em;
+    }
+
+}
+
+@media (max-width: 576px) {
+    html{
+        font-size: 12px;
+    }
+    #textoSecundarioInicio{
+        font-family: 'MontserratLight', sans-serif;
+        font-size: 1.5em;
+        margin: 0.5em 0 0 0.7em;
+    }
+
+    .saibaMaisInicio{
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+
+    #textoPrincipalInicio{
+        margin-top: 3em;
+        font-size: 3.15em;
+    }
+
+    #textoSecundarioInicio{
+        font-size: 1.2em;
+    }
+
+    #logoMaior{
+        width: 23em;
+        top: 7em;
+    }
+
+    #larguraDivBranco{
+        margin-top: 40em;
+        height: 12em;
+    }
+
+    #fotoPrincipal{
+        margin: 0 0 5em 0;
+    }
+
+    #meuCopyright{
+        margin-top: 11em;
+        font-size: 0.7em;
+    }
+
+}

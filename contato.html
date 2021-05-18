@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/solid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Pasillo</title>
+</head>
+<body>
+    <!-- Grid da página -->
+    <section class="container-fluid">
+
+    <!-- Cabeçalho  -->
+    <header class="row-12" id="voltaTopo">
+
+        <!-- Menu de Navegação -->
+        <nav class="navbar navbar-expand-md navbar-light col-12 fixed-to menuNav textoMenu text-uppercase">
+            <a class="navbar-brand d-lg-none" href="index.html"><img src="img/logoMenuMenor.png"  alt="" class="logoMenu img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#minhaNavbarToggle"
+            aria-controls="minhaNavbarToggle" aria-expanded="false" aria-label="Navegação Toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="minhaNavbarToggle">
+                <ul class="navbar-nav mr-lg-auto" id="alturaEsquerdaMenu">
+                    <li class="nav-item ">
+                        <a class="nav-link pt-3 px-lg-5 px-md-4" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 px-lg-5 px-md-4" href="sobre.html">Sobre Nós</a>
+                    </li>
+                </ul> 
+                <a class="d-none d-lg-block" href="index.html"><img src="img/logoMenu.png" alt="" class="logoMenu img-fluid px-lg-5 mx-lg-5"></a>
+                <ul class="navbar-nav ml-lg-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link pt-3 px-lg-5 px-md-5" href="servicos.html">Serviços</a>
+                    </li>
+                    <div>
+                        <li class="nav-item">
+                            <a class="nav-link pt-3 px-lg-5 px-md-5" href="portfolio.html">Portfólio</a>
+                        </li>
+                        <li class="nav-item font-weight-bold">
+                            <a class="nav-link px-lg-5 px-md-5" href="contato.html">Contato</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    <hr class="linhaMenu">
+    </header>              
+
+        <main>
+
+            <!-- Título Principal -->
+            <div class="row border-top border-bottom mt-5" id="tituloSobreProjeto">
+                <div class="col-12">
+                    <p class="text-center text-uppercase mt-5" id="conteProjeto">Conte-nos sobre o seu</p>
+                    <h2 class="text-center text-uppercase" id="palavraProjeto">Projeto?</h2>
+                    <hr id="linhaProjeto">
+                </div> 
+            </div>
+
+            <!-- Contatos e Fotos das Integrantes -->
+            <div class="row-12">
+                <div class="position-relative col-md-8 pt-3" id="caixaCentral">
+                    <h2 class="text-uppercase text-center" id="tituloCaixaCentral">Contato</h2>
+                    <hr id="linhaContato">
+                    <p class="text-justify" id="textoCaixaCentral">
+                        Selecione a intervenção desejada e conte-nos um pouco sobre a sua ideia e o que deseja fazer. Entraremos em contato o mais breve possível. <br><span class="font-weight-bold">Caso prefira, clique nos ícones abaixo para entrar em contato via WhatsApp ou Email.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row border-top border-bottom">
+                <div class="col-md-4 border-top border-bottom border-right" id="divContatos">
+                    <div class="row mt-4">
+                        <i class="fas fa-user ml-5 iconesNomeContato"></i>
+                        <p class="col-4 nomesDonasContato mt-4">Mariana</p>
+                        <div>
+                            <a href="mailto:marianancavalcanti@gmail.com?"><i class="fas fa-envelope-square mt-4 mb-4 ml-4 iconesNossosContatos"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+5585997410400" target="_blank"><i class="fas fa-phone-square-alt mt-4 mb-4 ml-5 iconesNossosContatos"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-user ml-5 iconesNomeContato"></i>
+                        <p class="col-4 nomesDonasContato mt-4">Wynie</p>
+                        <div>
+                            <a href="mailto:wyniearaujo@gmail.com?"><i class="fas fa-envelope-square mt-4 mb-4 ml-4 iconesNossosContatos"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+5585997942041" target="_blank"><i class="fas fa-phone-square-alt mt-4 mb-4 ml-5 iconesNossosContatos"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário -->
+                <form class="col-md-8 mt-3 px-5">
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <input type="text" class="form-control estiloFormulario" placeholder="Nome">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="tel" class="form-control estiloFormulario" placeholder="Telefone">
+                        </div>
+                        
+                        <div class="form-group col-md-6">
+                            <select class="form-control estiloFormulario" id="pessoaFisicaJuridica">
+                                <option selected>Pessoa</option>
+                                <option>Física</option>
+                                <option>Jurídica</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control estiloFormulario" id="cnpjCpf" onkeyup="" maxlength="" placeholder=""  onblur="if(!validaCpfCnpj(this.value)){alert('CNPJ Informado é inválido'); this.value='';}">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control estiloFormulario" id="inputAddress" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <select class="form-control estiloFormulario">
+                                <option selected>Tipo de Intervenção</option>
+                                <option>Arquitetônico</option>
+                                <option>Comercial</option>
+                                <option>Interiores</option>
+                                <option>Paisagismo</option>
+                                <option>Residencial</option>                                
+                                <option>Restauro</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control estiloFormulario" placeholder="Cidade">
+                        </div>
+                        <div class="form-group col-md-10">
+                            <textarea class="form-control estiloFormulario" rows="4" placeholder="Escreva sua mensagem aqui..."></textarea>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn text-uppercase rounded-0 ml-md-3 mt-md-5" id="botaoEnviar">Enviar</button>  
+                        </div>                      
+                    </div>
+                </form>
+        </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer>
+            <hr class="linhaMenu">
+                <div class="row">
+                    <div class="col-5" id="meuCopyright">
+                        <p class="copyright">&copy Copyright 2021. Passillo: Todos os Direitos Reservados.</p>
+                    </div>
+                    <div class="col-7" id="contatosFooter">
+                        <div id="posicionarContatoFooter">
+                            <div class="row">
+                                <i class="fas fa-user iconeFooter"></i>
+                                <p>Mariana</p>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-phone-alt iconeFooter"></i>
+                                <p class="numeroFooter">+55 (85) 9 9741 0400</p>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-user iconeFooter"></i>
+                                <p>Wynie</p>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-phone-alt iconeFooter"></i>
+                                <p class="numeroFooter">+55 (85) 9 9794 2041</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+        </footer>
+
+        <!-- Botão Volta Topo -->
+        <div class="position-fixed" id="botaoRetornoTopo">
+            <a class="meuScroll" href="#voltaTopo">
+                <i class="fas fa-arrow-circle-up" style="color: #211e42a4;"></i>
+            </a>
+        </div>
+    </section>
+
+<!-- Links JavaScript -->
+<script src="js/jquery.js"></script>
+<script src="js/meuPrograma.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

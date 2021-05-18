@@ -1,0 +1,81 @@
+/* Icones */
+.icones{
+    font-size: 3em;
+    color: #211E42;
+    opacity: 0.8;
+}
+
+/* Estilizando Textos */
+.titulosServicos{
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0.01em 0.01em 0.03em #12112532;
+    color: #211E42;
+    font-size: 2em;
+}
+
+.textoServicos{
+    font-family: 'Montserrat', sans-serif;
+    color: #211E42;
+    font-size: 1.1em;
+}
+
+#linhaServicos{
+    width: 30%;
+    margin: 2em auto 4em auto;
+}
+
+.linhasTitulos{
+    color:#9DA09B;
+    width: 75%;
+    margin: 1em auto;
+}
+
+#tituloPrincipalServicos{
+    color: #211E42;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.2em;
+    text-shadow: 0.01em 0.01em 0.03em #12112532;
+    margin-top: 2em;
+}
+
+/* Botão Portfolio */
+
+#botaoParaPortfolio{
+    border: 1px solid #211E42;
+    border-radius: 0px;
+    font-family: 'MontserratLight', sans-serif;
+    color: #211E42;
+    font-size: 1.2em;
+    margin-top: 10em;
+}
+
+#linkPortfolio{
+    color: #211E42;
+}
+
+#botaoParaPortfolio:hover{
+    font-family: 'MontserratLight', sans-serif;
+    background: #5d52d371;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px)  {
+
+    .titulosServicos{
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 768px)  {
+    #botaoParaPortfolio{
+        margin-top: 5em;
+    }
+
+}
+
+@media (max-width: 576px) {
+    #botaoParaPortfolio{
+        margin-top: 5em;
+    }
+}
